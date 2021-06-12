@@ -20,6 +20,6 @@ async function convert(){
    }
    console.log(finalValue);
    let res= 'Converted Amount of '+amount+' ' +base +' is '+ finalValue+ ' '+out ;
-   let finalRes = res.fontcolor("dark red");
+   let finalRes = res.fontcolor("dark brown");
    document.getElementById('converted').innerHTML=finalRes;
 }
